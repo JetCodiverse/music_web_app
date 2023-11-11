@@ -1,8 +1,10 @@
+import brand from "../css/brand.css";
+
 function Brand() {
   return (
     <div className="brand">
       <a href="#">
-        <img class="logo" src="/icons/sonicWaveLogo.png" />
+        <img className="logo" src="/icons/sonicWaveLogo.png" />
       </a>
     </div>
   );

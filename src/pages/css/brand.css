@@ -1,0 +1,14 @@
+.brand {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 20%;
+}
+
+.logo {
+  height: 80px;
+  width: 160px;
+  margin-left: 20px;
+}

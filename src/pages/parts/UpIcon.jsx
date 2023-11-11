@@ -1,8 +1,10 @@
+import icon from "../css/upIcon.css";
+
 function UpIcon() {
   return (
     <div>
       <a href="#">
-        <img class="icon-image" src="/icons/up-black.png" />
+        <img className="icon-image" src="/icons/goldUp.png" />
       </a>
     </div>
   );

@@ -1,18 +1,15 @@
 import "./App.css";
-import Brand from "./pages/Brand";
-import Footer from "./pages/Footer";
-import Search from "./pages/Search";
-import UpIcon from "./pages/UpIcon";
+import Footer from "./pages/parts/Footer";
+import Header from "./pages/parts/Header";
+import Main from "./pages/parts/Main";
+import UpIcon from "./pages/parts/UpIcon";
 
 function App() {
   return (
     <div>
-      <header>
-        <Brand />
-        <Search />
-      </header>
+      <Header />
       <UpIcon />
-      <main id="main"></main>
+      <Main />
       <Footer />
     </div>
   );

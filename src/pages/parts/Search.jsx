@@ -1,3 +1,5 @@
+import search from "../css/search.css";
+
 function Search() {
   return (
     <div>
@@ -5,8 +7,8 @@ function Search() {
         <input
           type="text"
           id="search"
-          class="search"
-          placeholder="Search for a movie..."
+          className="search"
+          placeholder="Search for a music..."
         />
       </form>
     </div>
