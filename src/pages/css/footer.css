@@ -16,12 +16,12 @@
 }
 
 .footer-a-ul {
-  padding: 1em;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.8em;
+  color: #fff;
 }
 
 a {
@@ -32,10 +32,12 @@ a {
 .footer-brand {
   color: #fff;
   font-size: 14px;
+  margin: 0;
+  padding-top: 1rem;
 }
 
 .footer-icons-ul {
-  padding: 1em;
+  padding: 0.3rem;
   list-style: none;
   display: flex;
   gap: 1em;
@@ -47,7 +49,6 @@ a {
 .footer-icons {
   width: 100%;
   height: 100%;
-  padding-bottom: 0.2rem;
 }
 
 @media screen and (max-width: 580px) {

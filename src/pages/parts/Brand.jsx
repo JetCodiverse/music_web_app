@@ -1,4 +1,4 @@
-import brand from "../css/brand.css";
+import "./../css/brand.css";
 
 function Brand() {
   return (
